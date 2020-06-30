@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+
+<!--
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 4 & Angular 8
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+Renew Support: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="pt-br">
+
+	<!-- begin::Head -->
+	<head>
+		<base href="../../">
+		<meta charset="utf-8" />
+		<title>Helps | Ciclos</title>
+		<meta name="description" content="Accordion examples">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!--begin::Fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Asap+Condensed:500">
+
+		<!--end::Fonts -->
+
+		<!--begin::Global Theme Styles(used by all pages) -->
+
+		<!--begin:: Vendor Plugins -->
+		<link href="assets/plugins/general/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/tether/dist/css/tether.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-datetime-picker/css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-timepicker/css/bootstrap-timepicker.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-select/dist/css/bootstrap-select.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/select2/dist/css/select2.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/ion-rangeslider/css/ion.rangeSlider.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/nouislider/distribute/nouislider.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/owl.carousel/dist/assets/owl.carousel.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/owl.carousel/dist/assets/owl.theme.default.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/dropzone/dist/dropzone.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/quill/dist/quill.snow.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/@yaireo/tagify/dist/tagify.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/summernote/dist/summernote.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-markdown/css/bootstrap-markdown.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/animate.css/animate.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/toastr/build/toastr.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/dual-listbox/dist/dual-listbox.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/morris.js/morris.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/sweetalert2/dist/sweetalert2.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/socicon/css/socicon.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/plugins/line-awesome/css/line-awesome.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/plugins/flaticon/flaticon.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/plugins/flaticon2/flaticon.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
+
+		<!--end:: Vendor Plugins -->
+		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+
+		<!--begin:: Vendor Plugins for custom pages -->
+		<link href="assets/plugins/custom/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/@fullcalendar/core/main.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/@fullcalendar/daygrid/main.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/@fullcalendar/list/main.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/@fullcalendar/timegrid/main.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-autofill-bs4/css/autoFill.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-colreorder-bs4/css/colReorder.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-fixedcolumns-bs4/css/fixedColumns.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-fixedheader-bs4/css/fixedHeader.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-keytable-bs4/css/keyTable.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-rowgroup-bs4/css/rowGroup.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-rowreorder-bs4/css/rowReorder.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-scroller-bs4/css/scroller.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-select-bs4/css/select.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/jstree/dist/themes/default/style.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/jqvmap/dist/jqvmap.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/uppy/dist/uppy.min.css" rel="stylesheet" type="text/css" />		
+		<!--end::Layout Skins -->
+		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+	</head>
+
+	<!-- end::Head -->
+
+	<!-- begin::Body -->
+	<body class="kt-page-content-white kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--enabled kt-subheader--transparent kt-aside--enabled kt-aside--fixed kt-page--loading">
+
+		<!-- begin:: Page -->
+
+		<!-- begin:: Header Mobile -->
+		<div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
+			<div class="kt-header-mobile__logo">
+				<a href="index.html">
+					<img alt="Logo" src="assets/media/logos/logo-11-sm.png" />
+				</a>
+			</div>
+			<div class="kt-header-mobile__toolbar">
+				<button class="kt-header-mobile__toolbar-toggler kt-header-mobile__toolbar-toggler--left" id="kt_aside_mobile_toggler"><span></span></button>
+				<button class="kt-header-mobile__toolbar-topbar-toggler" id="kt_header_mobile_topbar_toggler"><i class="flaticon-more-1"></i></button>
+			</div>
+		</div>
+
+		<!-- end:: Header Mobile -->
+		<div class="kt-grid kt-grid--hor kt-grid--root">
+			<div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-page">
+				<div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper" id="kt_wrapper">
+
+					<!-- begin:: Header -->
+					<div id="kt_header" class="kt-header kt-grid__item  kt-header--fixed " data-ktheader-minimize="on">
+						<div class="kt-container  kt-container--fluid ">
+
+							<!-- begin:: Brand -->
+							<div class="kt-header__brand " id="kt_header_brand">
+								<div class="kt-header__brand-logo">
+									<a href="index.html">
+										<img alt="Logo" src="assets/media/logos/logo-11.png" />
+									</a>
+								</div>
+								
+							</div>
+
+							<!-- end:: Brand -->
+
+							<!-- begin:: Header Topbar -->
+							<div class="kt-header__topbar">
+
+								
+
+								<!--begin: User bar -->
+								<div class="kt-header__topbar-item kt-header__topbar-item--user">
+									<div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="10px,0px">
+										<span class="kt-header__topbar-welcome kt-visible-desktop"></span>
+										<span class="kt-header__topbar-username kt-visible-desktop">Sergio Moraes</span>
+										<img alt="Pic" src="assets/media/users/300_21.jpg" />
+										<span class="kt-header__topbar-icon kt-bg-brand kt-hidden"><b>S</b></span>
+									</div>
+									<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-xl">
+
+										<!--begin: Head -->
+										<div class="kt-user-card kt-user-card--skin-light kt-notification-item-padding-x">
+											<div class="kt-user-card__avatar">
+												<img class="kt-hidden-" alt="Pic" src="assets/media/users/300_25.jpg" />
+
+												<!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
+												<span class="kt-badge kt-badge--username kt-badge--unified-success kt-badge--lg kt-badge--rounded kt-badge--bold kt-hidden">S</span>
+											</div>
+											<div class="kt-user-card__name">
+												Sergio moraes
+											</div>								
+										</div>
+
+										<!--end: Head -->
+
+										<!--begin: Navigation -->
+										<div class="kt-notification">
+										<a href="components/base/tables.html" class="btn btn-label- btn-pill">
+										<i class="flaticon2-calendar-3 kt-font-success"></i> Meu perfil</a>						
+											<a href="custom/pages/invoices/invoice-2.html" class="kt-notification__item">
+												<div class="kt-notification__item-icon">
+													<i class="flaticon2-cardiogram kt-font-warning"></i>
+												</div>
+												<div class="kt-notification__item-details">
+													<div class="kt-notification__item-title kt-font-bold">
+														Faturamento
+													</div>
+													<div class="kt-notification__item-time">
+														faturamento e extratos<span class="kt-badge kt-badge--danger kt-badge--inline kt-badge--pill kt-badge--rounded">2 pending</span>
+													</div>
+												</div>
+											</a>
+											<div class="kt-notification__custom kt-space-between">
+												<a href="custom/user/login-v2.html" target="_blank" class="btn btn-label btn-label-brand btn-sm btn-bold">Sign Out</a>
+												<a href="custom/user/login-v2.html" target="_blank" class="btn btn-clean btn-sm btn-bold">Upgrade Plan</a>
+											</div>
+										</div>
+
+										<!--end: Navigation -->
+									</div>
+								</div>
+
+								<!--end: User bar -->
+							</div>
+
+							<!-- end:: Header Topbar -->
+						</div>
+					</div>
+
+					<!-- end:: Header -->
+					<div class="kt-body kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-grid--stretch" id="kt_body">
+						<div class="kt-container  kt-container--fluid  kt-grid kt-grid--ver">
+
+							<!-- begin:: Aside -->
+							<button class="kt-aside-close " id="kt_aside_close_btn"><i class="la la-close"></i></button>
+							<div class="kt-aside  kt-aside--fixed  kt-grid__item kt-grid kt-grid--desktop kt-grid--hor-desktop" id="kt_aside">
+
+								<!-- begin:: Aside Menu -->
+								<div class="kt-aside-menu-wrapper kt-grid__item kt-grid__item--fluid" id="kt_aside_menu_wrapper">
+									<div id="kt_aside_menu" class="kt-aside-menu " data-ktmenu-vertical="1" data-ktmenu-scroll="1">
+										<ul class="kt-menu__nav ">
+											<li class="kt-menu__item  kt-menu__item--active" aria-haspopup="true">
+											   <a href="index.html" class="kt-menu__link ">
+											     <i class="kt-menu__link-icon flaticon-dashboard">
+											     </i><span class="kt-menu__link-text">Dashboard</span>
+											  </a>
+											</li>
+											
+										<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+											   <a href="apps/perfil/perfil.html" class="kt-menu__link kt-menu__toggle" >
+											    <i class="kt-menu__link-icon flaticon-profile-1"></i>
+											      <span class="kt-menu__link-text">Perfil</span>											    
+											  </a>					
+										   </li>
+										
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+												<a href="components/base/accordions.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon-network"></i>
+												<span class="kt-menu__link-text">Ciclos</span>												
+												</a>		
+											</li>
+										
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+											   <a href="custom/apps/contacts/list-datatable.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon-users"></i>
+												 <span class="kt-menu__link-text">Participantes</span>												
+											 </a>						
+											</li>
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+											   <a href="custom/apps/contacts/add-contact.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon-users"></i>
+												 <span class="kt-menu__link-text"> Cadastrar novo</span>												
+											 </a>						
+											</li>
+											
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+												 <a href="custom/pages/pricing/pricing-1.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon-business"></i>
+												 <span class="kt-menu__link-text">Lojas Vip</span>												
+												</a>												
+											</li>
+											
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+												 <a href="custom/pages/pricing/pricing-01.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon2-open-box"></i>
+												<span class="kt-menu__link-text">Prêmios</span>												
+												</a>												
+											</li>
+											
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+												 <a href="custom/pages/invoices/invoice-2.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon2-graph"></i>
+												<span class="kt-menu__link-text">Extrato</span>												
+												</a>												
+											</li>
+											
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+												<a href="custom/apps/todo/docs.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon2-document"></i>
+												<span class="kt-menu__link-text">Documentos</span>												
+												</a>												
+											</li>
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+												<a href="custom/apps/support-center/suporte.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon2-document"></i>
+												<span class="kt-menu__link-text">Suporte</span>												
+												</a>												
+											</li>
+											
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+												<a href="custom/pages/user/login-2.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon-logout"></i>
+												<span class="kt-menu__link-text">Sair</span>												
+												</a>												
+											</li>
+										
+										</ul>
+									</div>
+								</div>
+
+								<!-- end:: Aside Menu -->
+							</div>
+
+							<!-- end:: Aside -->
+                         	<div class="kt-content  kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" id="kt_content">								
+								<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">									
+									<!--begin::Portlet-->
+									<div class="kt-portlet">
+										<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<h3 class="kt-portlet__head-title">
+													Meu Ciclos
+												</h3>
+											</div>
+										</div><br>
+										<!--INICIO DOS NIVEIS-->
+										<div class="container-body">
+											<div class="row ">
+											<!--nivel 4-->
+											  <div class="row col-md-12">																								
+													<div class="col-md-2"><hr>
+													<center><span class="kt-media kt-media--circle bg-success  ">
+														<span class="text-light">4</span> 																
+														</span> <h5> UPILINE </h5></center>
+													</div >
+													<div class="col-md-3"><hr>
+													<center><i class="fa fa-user-circle fa-1x"></i> 
+													<label>Sergio Moraeis Figueredo </label><br>
+													<i class="fa fa-handshake fa-1x"></i> 
+													<label>&nbsp;R$ 1.320,00</label></center>
+													<div class="progress">
+                                                         <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100" style="width: 7%"></div>
+													</div>
+													</div>
+													<div class="col-md-2"><hr>
+												      <center><span class="kt-badge kt-badge--inline kt-badge--danger">NÃO PAGO</span> <br><br>
+														<span class="kt-badge kt-badge--inline kt-badge--danger">BLOQUEADO</span></center>
+													</div>
+													<div class="col-md-2"><hr>
+													<center><i class="fa fa-key fa-1x"></i>
+													<label>&nbsp; Tokên: 00000</label><br>
+													<i class="la la-whatsapp fa-2x"></i>
+													<label>&nbsp;(00)9 9999-9999</label></center>
+													</div>
+													<div class="col-md-3"><hr>
+													<center><a href="#" class="btn btn-label-primary btn-pill">NL 4 BLOQUEADO</a>													
+												   </div>
+												   <hr>
+												</div><!--fim::nivel 4-->
+												
+												<!--nivel 3-->
+											  <div class="row col-md-12">																								
+													<div class="col-md-2"><hr>
+													<center><span class="kt-media kt-media--circle bg-danger">
+														<span class="text-light">3</span> 																
+														</span> <h5> UPILINE </h5></center>
+													</div >
+													<div class="col-md-3"><hr>
+													<center><i class="fa fa-user-circle fa-1x"></i> 
+													<label>Sergio Moraeis Figueredo</label><br>
+													<i class="fa fa-handshake fa-1x"></i> 
+													<label>&nbsp;R$ 160,00</label></center>
+													<div class="progress">
+                                                         <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100" style="width: 7%"></div>
+													</div>
+													</div>
+													<div class="col-md-2"><hr>
+												      <center><span class="kt-badge kt-badge--inline kt-badge--danger">NÃO PAGO</span> <br><br>
+														<span class="kt-badge kt-badge--inline kt-badge--danger">BLOQUEADO</span></center>
+													</div>
+													<div class="col-md-2"><hr>
+													<center><i class="fa fa-key fa-1x"></i>
+													<label>&nbsp; Tokên: 00000</label><br>
+													<i class="la la-whatsapp fa-2x"></i>
+													<label>&nbsp;(00)9 9999-9999</label></center>
+													</div>
+													<div class="col-md-3"><hr>
+													<center><a href="#" class="btn btn-label-primary btn-pill">NL 3 BLOQUEADO</a>													
+												   </div>
+												   <hr>
+												</div><!--fim::nivel 3-->
+												
+												<!--nivel 2-->
+											  <div class="row col-md-12">																								
+													<div class="col-md-2"><hr>
+													<center><span class="kt-media kt-media--circle bg-primary ">
+														<span class="text-light">2</span> 																
+														</span> <h5> UPILINE </h5></center>
+													</div >
+													<div class="col-md-3"><hr>
+													<center><i class="fa fa-user-circle fa-1x"></i> 
+													<label>Sergio Moraeis Figueredo</label><br>
+													<i class="fa fa-handshake fa-1x"></i> 
+													<label>&nbsp;R$ 40,00</label></center>
+													<div class="progress">
+                                                         <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100" style="width: 7%"></div>
+													</div>
+													</div>
+													<div class="col-md-2"><hr>
+												      <center><span class="kt-badge kt-badge--inline kt-badge--danger">NÃO PAGO</span> <br><br>
+														<span class="kt-badge kt-badge--inline kt-badge--danger">BLOQUEADO</span></center>
+													</div>
+													<div class="col-md-2"><hr>
+													<center><i class="fa fa-key fa-1x"></i>
+													<label>&nbsp; Tokên: 00000</label><br>
+													<i class="la la-whatsapp fa-2x"></i>
+													<label>&nbsp;(00)9 9999-9999</label></center>
+													</div>
+													<div class="col-md-3"><hr>
+													<center><a href="#" class="btn btn-label-primary btn-pill">NL 2 BLOQUEADO</a>													
+												   </div>
+												   <hr>
+												</div><!--fim::nivel 2-->
+													
+													<!--nivel 1-->
+											  <div class="row col-md-12">																								
+													<div class="col-md-2"><hr>
+													<center><span class="kt-media kt-media--circle bg-warning ">
+														<span class="text-light">1</span> 																
+														</span><br><h5>Patrocinador</h5> </center>
+													</div >
+													<div class="col-md-3"><hr>
+													<center><i class="fa fa-user-circle fa-1x"></i> 
+													<label>Sergio Moraeis Figueredo</label><br>
+													<i class="fa fa-handshake fa-1x"></i> 
+													<label>&nbsp;R$ 20,00</label></center>
+													<div class="progress">
+                                                         <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100" style="width: 7%"></div>
+													</div>
+													</div>
+													<div class="col-md-2"><hr>
+												      <center><span class="kt-badge kt-badge--inline kt-badge--danger">NÃO PAGO</span> <br><br>
+														<span class="kt-badge kt-badge--inline kt-badge--danger">BLOQUEADO</span></center>
+													</div>
+													<div class="col-md-2"><hr>
+													<center><i class="fa fa-key fa-1x"></i>
+													<label>&nbsp; Tokên: 00000</label><br>
+													<i class="la la-whatsapp fa-2x"></i>
+													<label>&nbsp;(00)9 9999-9999</label></center>
+													</div>
+													<div class="col-md-3"><hr>
+													<center><a href="#" class="btn btn-label-primary btn-pill">NL 1 BLOQUEADO</a>													
+												   </div>
+												   <hr>
+												</div><!--fim::nivel 1-->
+											</div>
+										</div>
+									     <!--fim::DOS PATROCNOS-->                                        
+									
+										
+										
+										<div class="kt-portlet__body">
+											<table class="table table-bordered">
+												<tr>
+													<td>													
+													<center><span class="kt-media kt-media--lg kt-media--circle ">
+													<center><h4><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="1 1 20 20" version="1.1" class="kt-svg-icon">
+																	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																		<polygon points="0 0 24 0 24 24 0 24"/>
+																		<rect fill="#000000" opacity="0.3" x="11" y="3" width="2" height="14" rx="1"/>
+																		<path d="M6.70710678,10.7071068 C6.31658249,11.0976311 5.68341751,11.0976311 5.29289322,10.7071068 C4.90236893,10.3165825 4.90236893,9.68341751 5.29289322,9.29289322 L11.2928932,3.29289322 C11.6714722,2.91431428 12.2810586,2.90106866 12.6757246,3.26284586 L18.6757246,8.76284586 C19.0828436,9.13603827 19.1103465,9.76860564 18.7371541,10.1757246 C18.3639617,10.5828436 17.7313944,10.6103465 17.3242754,10.2371541 L12.0300757,5.38413782 L6.70710678,10.7071068 Z" fill="#000000" fill-rule="nonzero"/>
+																		<rect fill="#000000" opacity="0.3" x="3" y="19" width="18" height="2" rx="1"/>
+																	</g>
+																</svg><br> MEUS PATROCÍNOS </h4>
+														<img src="assets/media/users/100_12.jpg" alt="image">
+														<label>Tokên: 00000
+														<h4>MEUS INDICADOS <br> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="1 1 20 20" version="1.1" class="kt-svg-icon">
+																					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																						<polygon points="0 0 24 0 24 24 0 24"/>
+																						<rect fill="#000000" opacity="0.3" x="11" y="7" width="2" height="14" rx="1"/>
+																						<path d="M6.70710678,20.7071068 C6.31658249,21.0976311 5.68341751,21.0976311 5.29289322,20.7071068 C4.90236893,20.3165825 4.90236893,19.6834175 5.29289322,19.2928932 L11.2928932,13.2928932 C11.6714722,12.9143143 12.2810586,12.9010687 12.6757246,13.2628459 L18.6757246,18.7628459 C19.0828436,19.1360383 19.1103465,19.7686056 18.7371541,20.1757246 C18.3639617,20.5828436 17.7313944,20.6103465 17.3242754,20.2371541 L12.0300757,15.3841378 L6.70710678,20.7071068 Z" fill="#000000" fill-rule="nonzero" transform="translate(12.000003, 16.999999) scale(1, -1) translate(-12.000003, -16.999999) "/>
+																						<rect fill="#000000" opacity="0.3" x="3" y="3" width="18" height="2" rx="1"/>
+																					</g>
+																				</svg></h5>
+													</span></center>
+													</td>																									
+												</tr>																	
+											</table>
+										</div>
+										
+											<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+											<nav class="sidebar menu">
+												<ul class="list-unstyled">                                                         
+													<h5><li><hr> <!--nivel 1-->												
+														
+														<a href="#submenu1" data-toggle="collapse"><span class="kt-badge kt-badge--warning  kt-badge--inline kt-badge--pill">C-1</span></a>&nbsp;
+														<i class="fas fa-user-tie 10px"></i> &nbsp;&nbsp;&nbsp; Sergio moraes &nbsp;&nbsp;&nbsp;&nbsp;   
+														 <span class="kt-badge kt-badge--success  kt-badge--inline kt-badge--pill">ATIVO</span>&nbsp;&nbsp;&nbsp;&nbsp; 
+														 <i class="fa fa-key fa-1x"></i><label>&nbsp; Tokên: 00000</label>&nbsp;&nbsp;&nbsp;&nbsp; <i class="la la-whatsapp fa-2x"></i>
+													<label>&nbsp;(00)9 9999-9999</label><hr>
+													
+														<ul id="submenu1" class="list-unstyled collapse">
+														<!--nivel 2-->
+															<li> <a href="#submenu2" data-toggle="collapse"><span class="kt-badge kt-badge--primary  kt-badge--inline kt-badge--pill">C-2</span></a>&nbsp;
+															<i class="fas fa-user-tie 10px"></i><hr> 							
+																<ul id="submenu2" class="list-unstyled collapse">							 
+																			<li> <a href="#submenu3" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																	
+																				<ul id="submenu3" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu14" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu15" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu16" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>																						
+																		   </li>
+																		   
+																	 <li> <a href="#submenu4" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																	
+																				<ul id="submenu4" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu17" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu18" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu19" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>																						
+																		   </li>
+																		   
+																	<li> <a href="#submenu5" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																		<ul id="submenu5" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu20" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu21" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu22" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>					
+																	</li>														                         							 														                       
+																</ul>							
+																					
+															</li>
+															 <li> <a href="#submenu6" data-toggle="collapse"><span class="kt-badge kt-badge--primary  kt-badge--inline kt-badge--pill">C-2</span></a>&nbsp;
+															 <i class="fas fa-user-tie 10px"></i><hr>
+																 <ul id="submenu6" class="list-unstyled collapse">
+																 
+																		<li> <a href="#submenu7" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																			<ul id="submenu7" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu23" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu24" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu25" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>						
+																		</li>
+																		 <li> <a href="#submenu8" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																				<ul id="submenu8" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu26" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu28" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu28" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>						
+																		</li>	
+																		<li> <a href="#submenu9" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																			<ul id="submenu9" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu29" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu30" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu31" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>						
+																		</li>														                         							 														                       
+																 </ul>
+															 
+															 
+															 
+															</li>	
+															<li> <a href="#submenu10" data-toggle="collapse"><span class="kt-badge kt-badge--primary  kt-badge--inline kt-badge--pill">C-2</span></a>&nbsp;
+															<i class="fas fa-user-tie 10px"></i><hr>	
+															
+																<ul id="submenu10" class="list-unstyled collapse">
+																	<li> <a href="#submenu11" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																				<ul id="submenu11" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu32" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu33" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu34" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>					
+																	</li>
+																	 <li> <a href="#submenu12" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																				<ul id="submenu12" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu35" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu36" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu37" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>				
+																	</li>	
+																	<li> <a href="#submenu13" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																			   <ul id="submenu13" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu38" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu39" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu40" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>			
+																	</li>														                         							 														                       
+																</ul>
+																						
+															</li>														                         							 														                       
+														</ul>
+													</li></h5><hr>
+													<!--nivel 1/2-->
+													<h5><li>
+														<a href="#submenu41" data-toggle="collapse"><span class="kt-badge kt-badge--warning  kt-badge--inline kt-badge--pill">C-1</span></a>&nbsp;
+														<i class="fas fa-user-tie 10px"></i>&nbsp; Sergio moraes <hr>
+														<ul id="submenu41" class="list-unstyled collapse">
+														
+															<li> <a href="#submenu42" data-toggle="collapse"><span class="kt-badge kt-badge--primary  kt-badge--inline kt-badge--pill">C-2</span></a>&nbsp;
+															<i class="fas fa-user-tie 10px"></i><hr>						
+																<ul id="submenu42" class="list-unstyled collapse">							 
+																			<li> <a href="#submenu43" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>								
+																				<ul id="submenu43" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu44" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu45" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu46" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>																						
+																		   </li>
+																		   
+																	 <li> <a href="#submenu47" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																	
+																				<ul id="submenu47" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu48" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu49" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																					</li>	
+																					<li> <a href="#submenu50" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>																						
+																		   </li>
+																		   
+																	<li> <a href="#submenu51" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																		<ul id="submenu51" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu52" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu53" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu54" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>					
+																	</li>														                         							 														                       
+																</ul>							
+																					
+															</li>
+															 <li> <a href="#submenu55" data-toggle="collapse"><span class="kt-badge kt-badge--primary  kt-badge--inline kt-badge--pill">C-2</span></a>&nbsp;
+															<i class="fas fa-user-tie 10px"></i><hr>
+																 <ul id="submenu55" class="list-unstyled collapse">
+																 
+																		<li> <a href="#submenu56" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																			<ul id="submenu56" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu57" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu58" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu59" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>						
+																		</li>
+																		 <li> <a href="#submenu60" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																				<ul id="submenu60" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu61" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu62" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu63" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>						
+																		</li>	
+																		<li> <a href="#submenu64" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																			<ul id="submenu64" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu65" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu66" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu67" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>						
+																		</li>														                         							 														                       
+																 </ul>
+															 
+															 
+															 
+															</li>	
+															<li> <a href="#submenu68" data-toggle="collapse"><span class="kt-badge kt-badge--primary  kt-badge--inline kt-badge--pill">C-2</span></a>&nbsp;
+															<i class="fas fa-user-tie 10px"></i><hr>
+															
+																<ul id="submenu68" class="list-unstyled collapse">
+																	<li> <a href="#submenu69" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																				<ul id="submenu69" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu70" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu71" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu72" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>					
+																	</li>
+																	 <li> <a href="#submenu73" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																				<ul id="submenu73" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu74" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu75" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu76" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>				
+																	</li>	
+																	<li> <a href="#submenu77" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																			   <ul id="submenu77" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu78" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu79" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu80" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>			
+																	</li>														                         							 														                       
+																</ul>
+																						
+															</li>														                         							 														                       
+														</ul>
+													</li></h5><hr><!--::fim nivel 1/2-->
+												
+													<h5><li>
+														<a href="#submenu81" data-toggle="collapse"><span class="kt-badge kt-badge--warning  kt-badge--inline kt-badge--pill">C-1</span></a>&nbsp;
+														<i class="fas fa-user-tie 10px"></i>&nbsp; Sergio Moraes<hr> 
+														<ul id="submenu81" class="list-unstyled collapse">
+														
+															<li> <a href="#submenu82" data-toggle="collapse"><span class="kt-badge kt-badge--primary  kt-badge--inline kt-badge--pill">C-2</span></a>&nbsp;
+															<i class="fas fa-user-tie 10px"></i><hr>						
+																<ul id="submenu82" class="list-unstyled collapse">	
+																
+																			<li> <a href="#submenu83" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																	
+																				<ul id="submenu84" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu85" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu86" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu87" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>																						
+																		   </li>
+																		   
+																	 <li> <a href="#submenu88" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																	
+																				<ul id="submenu88" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu89" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu89" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu90" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>																						
+																		   </li>
+																		   
+																	<li> <a href="#submenu91" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																		<ul id="submenu91" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu92" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu93" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu94" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>					
+																	</li>														                         							 														                       
+																</ul>							
+																					
+															</li>
+															 <li> <a href="#submenu95" data-toggle="collapse"><span class="kt-badge kt-badge--primary  kt-badge--inline kt-badge--pill">C-2</span></a>&nbsp;
+															<i class="fas fa-user-tie 10px"></i><hr>
+																 <ul id="submenu95" class="list-unstyled collapse">
+																 
+																		<li> <a href="#submenu96" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																			<ul id="submenu96" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu97" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu98" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu99" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>						
+																		</li>
+																		 <li> <a href="#submenu100" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																				<ul id="submenu100" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu101" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu102" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu103" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>						
+																		</li>	
+																		<li> <a href="#submenu104" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																			<ul id="submenu104" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu105" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu106" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu107" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>						
+																		</li>														                         							 														                       
+																 </ul>
+															 
+															 
+															 
+															</li>	
+															<li> <a href="#submenu108" data-toggle="collapse"><span class="kt-badge kt-badge--primary  kt-badge--inline kt-badge--pill">C-2</span></a>&nbsp;
+															<i class="fas fa-user-tie 10px"></i><hr>	
+															
+																<ul id="submenu108" class="list-unstyled collapse">
+																	<li> <a href="#submenu109" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																				<ul id="submenu109" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu110" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu111" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu112" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>					
+																	</li>
+																	 <li> <a href="#submenu113" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																				<ul id="submenu113" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu114" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu115" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu116" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>				
+																	</li>	
+																	<li> <a href="#submenu117" data-toggle="collapse"><span class="kt-badge kt-badge--danger  kt-badge--inline kt-badge--pill">C-3</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																			   <ul id="submenu117" class="list-unstyled collapse">
+																			 
+																					 <li> <a href="#submenu118" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>
+																					 <li> <a href="#submenu119" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																												
+																					</li>	
+																					<li> <a href="#submenu120" data-toggle="collapse"><span class="kt-badge kt-badge--dark  kt-badge--inline kt-badge--pill">C-4</span></a>&nbsp;
+															                       <i class="fas fa-user-tie 10px"></i><hr>
+																											
+																					</li>														                         							 														                       
+																				</ul>			
+																	</li>														                         							 														                       
+																</ul>
+																						
+															</li></h5><hr>														                         							 														                       
+														</ul>
+													</li> <!--::fim nivel 1/3-->
+												   
+												</ul>
+													
+
+											</nav>
+										</div>
+										
+										<!--fim da classe rede-->	
+									     <!--fim::DOS PATROCNOS-->   
+										
+										
+										
+									</div>
+
+									<!--end::Portlet-->
+								</div>
+
+								<!-- end:: Content -->
+							</div>
+						</div>
+					</div>
+
+					<!-- begin:: Footer -->
+					<div class="kt-footer text-center kt-grid__item" id="kt_footer">
+						<div class="kt-container ">
+							<div class="kt-footer__wrapper">
+								<div class="kt-footer__copyright ">
+									2019&nbsp;&copy;&nbsp;<a href="#" target="_blank" class="kt-link">Sistema de incentivo a ajuda mútua</a>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+
+					<!-- end:: Footer -->
+				</div>
+			</div>
+		</div>
+
+
+		<!-- begin::Global Config(global config for global JS sciprts) -->
+		<script>
+			var KTAppOptions = {
+				"colors": {
+					"state": {
+						"brand": "#5d78ff",
+						"light": "#ffffff",
+						"dark": "#282a3c",
+						"primary": "#5867dd",
+						"success": "#34bfa3",
+						"info": "#36a3f7",
+						"warning": "#ffb822",
+						"danger": "#fd3995"
+					},
+					"base": {
+						"label": ["#c5cbe3", "#a1a8c3", "#3d4465", "#3e4466"],
+						"shape": ["#f0f3ff", "#d9dffa", "#afb4d4", "#646c9a"]
+					}
+				}
+			};
+		</script>
+                <!--modal comprovante-->
+				<div class='modal fade comprovante'>
+					<div class='modal-dialog'>
+						<div class='modal-content shadow-lg'>
+							<div class='modal-header'>		
+								<h5 class='modal-title'> Enviar comprovante de depósito </h5>
+								<a href='#' data-dismiss='modal'> <i class="material-icons">clear</i> </a>
+							</div>
+							<div class="modal-body">
+								<p class='text-monospace text-success text-center border-bottom pb-2'>Você receberá 
+								<i class='fa fa-coins'></i> 0 Orion Coins</p>				<form method='post' action='' enctype="multipart/form-data">
+									<input type="hidden" name="pin_patrocinador" value="630256">
+									<input type="hidden" name="pin_indicado" value="308361">
+									<input type="hidden" name="coin" value="0">
+									<img src='' class='blah' style='width:50%;'>
+									<input type="file" class='form-control my-3 pb-5' name="f1" accept="image/*" 
+									onChange='readURL(this)' required>		
+									<button name='envDoc' class='btn btn-success btn-block my-3'> Enviar </button>
+								</form>
+
+							</div>
+							<div class='modal-footer'></div>
+						</div>	
+					</div>										
+                   </div><!--fim modal comprovante -->
+				   
+						<!-- modal informação -->
+						<div class='modal fade nivelBlk'>
+							<div class='modal-dialog modal-lg'>
+								<div class='modal-content shadow-lg'>
+									<div class='modal-header'>		
+										<h5 class='modal-title'> <i class='fa fa-exclamation-circle'></i> Informação do sistema </h5>
+										<a href='#' data-dismiss='modal'> <i class="material-icons">clear</i> </a>
+									</div>
+									<div class="modal-body text-center">
+										
+										<h5 class='my-3'>Você precisa completar o nível anterior antes de liberar este</h5>
+
+									</div>
+									<div class='modal-footer'></div>
+								</div>	
+							</div>
+						</div><!--fim modal informação -->
+							
+				
+				
+		
+
+		<!--begin::Global Theme Bundle(used by all pages) -->
+
+		<!--begin:: Vendor Plugins -->
+		<script src="assets/plugins/general/jquery/dist/jquery.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/popper.js/dist/umd/popper.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js-cookie/src/js.cookie.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/moment/min/moment.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/tooltip.js/dist/umd/tooltip.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/perfect-scrollbar/dist/perfect-scrollbar.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/sticky-js/dist/sticky.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/wnumb/wNumb.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/jquery-form/dist/jquery.form.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/block-ui/jquery.blockUI.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/bootstrap-datepicker.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-datetime-picker/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-timepicker/js/bootstrap-timepicker.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/bootstrap-timepicker.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-daterangepicker/daterangepicker.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-maxlength/src/bootstrap-maxlength.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/plugins/bootstrap-multiselectsplitter/bootstrap-multiselectsplitter.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-select/dist/js/bootstrap-select.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-switch/dist/js/bootstrap-switch.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/bootstrap-switch.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/select2/dist/js/select2.full.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/ion-rangeslider/js/ion.rangeSlider.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/typeahead.js/dist/typeahead.bundle.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/handlebars/dist/handlebars.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/inputmask/dist/jquery.inputmask.bundle.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/inputmask/dist/inputmask/inputmask.date.extensions.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/inputmask/dist/inputmask/inputmask.numeric.extensions.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/nouislider/distribute/nouislider.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/owl.carousel/dist/owl.carousel.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/autosize/dist/autosize.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/clipboard/dist/clipboard.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/dropzone/dist/dropzone.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/dropzone.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/quill/dist/quill.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/@yaireo/tagify/dist/tagify.polyfills.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/@yaireo/tagify/dist/tagify.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/summernote/dist/summernote.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/markdown/lib/markdown.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-markdown/js/bootstrap-markdown.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/bootstrap-markdown.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-notify/bootstrap-notify.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/bootstrap-notify.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/jquery-validation/dist/jquery.validate.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/jquery-validation/dist/additional-methods.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/jquery-validation.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/toastr/build/toastr.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/dual-listbox/dist/dual-listbox.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/raphael/raphael.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/morris.js/morris.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/chart.js/dist/Chart.bundle.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/plugins/bootstrap-session-timeout/dist/bootstrap-session-timeout.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/plugins/jquery-idletimer/idle-timer.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/waypoints/lib/jquery.waypoints.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/counterup/jquery.counterup.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/es6-promise-polyfill/promise.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/sweetalert2/dist/sweetalert2.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/sweetalert2.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/jquery.repeater/src/lib.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/jquery.repeater/src/jquery.input.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/jquery.repeater/src/repeater.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/dompurify/dist/purify.js" type="text/javascript"></script>
+
+		<!--end:: Vendor Plugins -->
+		<script src="assets/js/scripts.bundle.js" type="text/javascript"></script>
+
+		<!--begin:: Vendor Plugins for custom pages -->
+		<script src="assets/plugins/custom/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/@fullcalendar/core/main.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/@fullcalendar/daygrid/main.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/@fullcalendar/google-calendar/main.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/@fullcalendar/interaction/main.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/@fullcalendar/list/main.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/@fullcalendar/timegrid/main.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/gmaps/gmaps.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/flot/dist/es5/jquery.flot.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/flot/source/jquery.flot.resize.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/flot/source/jquery.flot.categories.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/flot/source/jquery.flot.pie.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/flot/source/jquery.flot.stack.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/flot/source/jquery.flot.crosshair.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/flot/source/jquery.flot.axislabels.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net/js/jquery.dataTables.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-bs4/js/dataTables.bootstrap4.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/js/global/integration/plugins/datatables.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-autofill/js/dataTables.autoFill.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-autofill-bs4/js/autoFill.bootstrap4.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jszip/dist/jszip.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/pdfmake/build/pdfmake.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/pdfmake/build/vfs_fonts.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-buttons/js/dataTables.buttons.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-buttons/js/buttons.colVis.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-buttons/js/buttons.flash.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-buttons/js/buttons.html5.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-buttons/js/buttons.print.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-colreorder/js/dataTables.colReorder.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-fixedcolumns/js/dataTables.fixedColumns.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-keytable/js/dataTables.keyTable.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-responsive/js/dataTables.responsive.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-rowgroup/js/dataTables.rowGroup.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-rowreorder/js/dataTables.rowReorder.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-scroller/js/dataTables.scroller.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-select/js/dataTables.select.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jstree/dist/jstree.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jqvmap/dist/jquery.vmap.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jqvmap/dist/maps/jquery.vmap.world.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jqvmap/dist/maps/jquery.vmap.russia.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jqvmap/dist/maps/jquery.vmap.usa.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jqvmap/dist/maps/jquery.vmap.germany.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jqvmap/dist/maps/jquery.vmap.europe.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/uppy/dist/uppy.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/tinymce/tinymce.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/tinymce/themes/silver/theme.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/tinymce/themes/mobile/theme.js" type="text/javascript"></script>
+
+		<!--end:: Vendor Plugins for custom pages -->
+
+		<!--end::Global Theme Bundle -->
+	</body>
+
+	<!-- end::Body -->
+</html>

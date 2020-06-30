@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+
+
+<html lang="pt-br">
+
+	<!-- begin::Head -->
+	<head>
+		<base href="../../">
+		<meta charset="utf-8" />
+		<title>Helps | Sorteios</title>
+		<meta name="description" content="Accordion examples">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!--begin::Fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Asap+Condensed:500">
+
+		<!--end::Fonts -->
+
+		<!--begin::Global Theme Styles(used by all pages) -->
+
+		<!--begin:: Vendor Plugins -->
+		<link href="assets/plugins/general/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/tether/dist/css/tether.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-datetime-picker/css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-timepicker/css/bootstrap-timepicker.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-select/dist/css/bootstrap-select.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/select2/dist/css/select2.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/ion-rangeslider/css/ion.rangeSlider.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/nouislider/distribute/nouislider.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/owl.carousel/dist/assets/owl.carousel.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/owl.carousel/dist/assets/owl.theme.default.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/dropzone/dist/dropzone.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/quill/dist/quill.snow.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/@yaireo/tagify/dist/tagify.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/summernote/dist/summernote.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/bootstrap-markdown/css/bootstrap-markdown.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/animate.css/animate.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/toastr/build/toastr.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/dual-listbox/dist/dual-listbox.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/morris.js/morris.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/sweetalert2/dist/sweetalert2.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/socicon/css/socicon.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/plugins/line-awesome/css/line-awesome.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/plugins/flaticon/flaticon.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/plugins/flaticon2/flaticon.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/general/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
+
+		<!--end:: Vendor Plugins -->
+		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+
+		<!--begin:: Vendor Plugins for custom pages -->
+		<link href="assets/plugins/custom/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/@fullcalendar/core/main.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/@fullcalendar/daygrid/main.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/@fullcalendar/list/main.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/@fullcalendar/timegrid/main.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-autofill-bs4/css/autoFill.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-colreorder-bs4/css/colReorder.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-fixedcolumns-bs4/css/fixedColumns.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-fixedheader-bs4/css/fixedHeader.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-keytable-bs4/css/keyTable.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-rowgroup-bs4/css/rowGroup.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-rowreorder-bs4/css/rowReorder.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-scroller-bs4/css/scroller.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables.net-select-bs4/css/select.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/jstree/dist/themes/default/style.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/jqvmap/dist/jqvmap.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/uppy/dist/uppy.min.css" rel="stylesheet" type="text/css" />		
+		<!--end::Layout Skins -->
+		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+	</head>
+
+
+	<!-- end::Head -->
+
+	<!-- begin::Body -->
+	<body class="kt-page-content-white kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--enabled kt-subheader--transparent kt-aside--enabled kt-aside--fixed kt-page--loading">
+
+		<!-- begin:: Page -->
+
+		<!-- begin:: Header Mobile -->
+		<div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
+			<div class="kt-header-mobile__logo">
+				<a href="index.html">
+					<img alt="Logo" src="assets/media/logos/logo-11-sm.png" />
+				</a>
+			</div>
+			<div class="kt-header-mobile__toolbar">
+				<button class="kt-header-mobile__toolbar-toggler kt-header-mobile__toolbar-toggler--left" id="kt_aside_mobile_toggler"><span></span></button>
+				<button class="kt-header-mobile__toolbar-topbar-toggler" id="kt_header_mobile_topbar_toggler"><i class="flaticon-more-1"></i></button>
+			</div>
+		</div>
+
+		<!-- end:: Header Mobile -->
+		<div class="kt-grid kt-grid--hor kt-grid--root">
+			<div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-page">
+				<div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper" id="kt_wrapper">
+
+					<!-- begin:: Header -->
+					<div id="kt_header" class="kt-header kt-grid__item  kt-header--fixed " data-ktheader-minimize="on">
+						<div class="kt-container  kt-container--fluid ">
+
+							<!-- begin:: Brand -->
+							<div class="kt-header__brand " id="kt_header_brand">
+								<div class="kt-header__brand-logo">
+									<a href="index.html">
+										<img alt="Logo" src="assets/media/logos/logo-11.png" />
+									</a>
+								</div>
+								
+							</div>
+
+							<!-- end:: Brand -->
+
+							<div class="kt-header__topbar">								
+								<!--begin: User bar -->
+								<div class="kt-header__topbar-item kt-header__topbar-item--user">
+									<div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="10px,0px">
+										<span class="kt-header__topbar-welcome kt-visible-desktop"></span>
+										<span class="kt-header__topbar-username kt-visible-desktop">Sergio Moraes</span>
+										<img alt="Pic" src="assets/media/users/300_21.jpg" />
+										<span class="kt-header__topbar-icon kt-bg-brand kt-hidden"><b>S</b></span>
+									</div>
+									<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-xl">
+
+										<!--begin: Head -->
+										<div class="kt-user-card kt-user-card--skin-light kt-notification-item-padding-x">
+											<div class="kt-user-card__avatar">
+												<img class="kt-hidden-" alt="Pic" src="assets/media/users/300_25.jpg" />
+
+												<!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
+												<span class="kt-badge kt-badge--username kt-badge--unified-success kt-badge--lg kt-badge--rounded kt-badge--bold kt-hidden">S</span>
+											</div>
+											<div class="kt-user-card__name">
+												Sergio moraes
+											</div>								
+										</div>
+
+										<!--end: Head -->
+
+										<!--begin: Navigation -->
+										<div class="kt-notification">
+										<a href="components/base/tables.html" class="btn btn-label- btn-pill">
+										<i class="flaticon2-calendar-3 kt-font-success"></i> Meu perfil</a>						
+											<a href="custom/pages/invoices/invoice-2.html" class="kt-notification__item">
+												<div class="kt-notification__item-icon">
+													<i class="flaticon2-cardiogram kt-font-warning"></i>
+												</div>
+												<div class="kt-notification__item-details">
+													<div class="kt-notification__item-title kt-font-bold">
+														Faturamento
+													</div>
+													<div class="kt-notification__item-time">
+														faturamento e extratos<span class="kt-badge kt-badge--danger kt-badge--inline kt-badge--pill kt-badge--rounded">2 pending</span>
+													</div>
+												</div>
+											</a>
+											<div class="kt-notification__custom kt-space-between">
+												<a href="custom/user/login-v2.html" target="_blank" class="btn btn-label btn-label-brand btn-sm btn-bold">Sign Out</a>
+												<a href="custom/user/login-v2.html" target="_blank" class="btn btn-clean btn-sm btn-bold">Upgrade Plan</a>
+											</div>
+										</div>
+
+										<!--end: Navigation -->
+									</div>
+								</div>								
+							</div>
+							
+							<!-- end:: Header Topbar -->
+						</div>
+					</div>
+
+					<!-- end:: Header -->
+					<div class="kt-body kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-grid--stretch" id="kt_body">
+						<div class="kt-container  kt-container--fluid  kt-grid kt-grid--ver">
+
+							<!-- begin:: Aside -->
+							<button class="kt-aside-close " id="kt_aside_close_btn"><i class="la la-close"></i></button>
+							<div class="kt-aside  kt-aside--fixed  kt-grid__item kt-grid kt-grid--desktop kt-grid--hor-desktop" id="kt_aside">
+								<div class="kt-portlet kt-iconbox kt-iconbox--success kt-iconbox--animate-faster">
+								<!-- begin:: Aside Menu -->
+								<div class="kt-aside-menu-wrapper kt-grid__item kt-grid__item--fluid" id="kt_aside_menu_wrapper">
+									<div id="kt_aside_menu" class="kt-aside-menu " data-ktmenu-vertical="1" data-ktmenu-scroll="1">
+										<ul class="kt-menu__nav ">
+											<li class="kt-menu__item  kt-menu__item--active" aria-haspopup="true">
+											   <a href="index.html" class="kt-menu__link ">
+											     <i class="kt-menu__link-icon flaticon-dashboard">
+											     </i><span class="kt-menu__link-text">Dashboard</span>
+											  </a>
+											</li>
+											
+										<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+											   <a href="apps/perfil/perfil.html" class="kt-menu__link kt-menu__toggle">
+											    <i class="kt-menu__link-icon flaticon-profile-1"></i>
+											      <span class="kt-menu__link-text">Perfil</span>											    
+											  </a>					
+										   </li>
+										
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+												<a href="apps/ciclo/ciclos.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon-network"></i>
+												<span class="kt-menu__link-text">Ciclos</span>												
+												</a>		
+											</li>
+										
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+											   <a href="custom/apps/contacts/cad-novo.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon-users"></i>
+												 <span class="kt-menu__link-text"> Cadastrar novo</span>												
+											 </a>						
+											</li>
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+											   <a href="custom/pages/wizard/parti.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon-users"></i>
+												 <span class="kt-menu__link-text">Participantes</span>												
+											 </a>						
+											</li>
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+												 <a href="custom/pages/pricing/lojavip.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon-business"></i>
+												 <span class="kt-menu__link-text">Lojas Vip</span>												
+												</a>												
+											</li>
+											
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+												 <a href="custom/pages/pricing/premios.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon2-open-box"></i>
+												<span class="kt-menu__link-text">Prêmios</span>												
+												</a>												
+											</li>
+											
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+												 <a href="custom/pages/invoices/extrato.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon2-graph"></i>
+												<span class="kt-menu__link-text">Extrato</span>												
+												</a>												
+											</li>
+											
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+												<a href="custom/apps/todo/docs.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon2-document"></i>
+												<span class="kt-menu__link-text">Documentos</span>												
+												</a>												
+											</li>
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+												<a href="custom/apps/support-center/suporte.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon-computer"></i>
+												<span class="kt-menu__link-text">Suporte</span>												
+												</a>												
+											</li>
+											
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+												<a href="custom/pages/user/login-2.html" class="kt-menu__link kt-menu__toggle">
+												<i class="kt-menu__link-icon flaticon-logout"></i>
+												<span class="kt-menu__link-text">Sair</span>												
+												</a>												
+											</li>										
+										</ul>
+									</div>
+								</div>
+								</div>
+								<!-- end:: Aside Menu -->
+							</div>														
+							<!-- end:: Aside -->
+					<div class="kt-content  kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" id="kt_content">
+								<!-- begin:: Subheader -->
+								<div class="kt-subheader   kt-grid__item" id="kt_subheader">
+									<div class="kt-container  kt-container--fluid ">
+										<div class="kt-subheader__main">
+											<h3 class="kt-subheader__title">
+												Mega Sorteios da Sorte </h3>
+											<span class="kt-subheader__separator kt-hidden"></span>											
+										</div>										
+									</div>
+								</div>								
+								<!-- begin:: Content -->
+								<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+									<!--begin::Portlet-->																												
+									<div class="row">											
+										<!--mega sorteio-->
+										<div class="col-xl-6 col-lg-6">											
+											<div class="kt-portlet kt-portlet--height-fluid">
+												<div class=" kt-iconbox kt-iconbox--success kt-iconbox ">	
+												
+													<div class="kt-iconbox__body ">
+														<div class="kt-iconbox__icon">
+															<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
+																<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																	<rect x="0" y="0" width="24" height="24" />
+																	<path d="M2.56066017,10.6819805 L4.68198052,8.56066017 C5.26776695,7.97487373 6.21751442,7.97487373 6.80330086,8.56066017 L8.9246212,10.6819805 C9.51040764,11.267767 9.51040764,12.2175144 8.9246212,12.8033009 L6.80330086,14.9246212 C6.21751442,15.5104076 5.26776695,15.5104076 4.68198052,14.9246212 L2.56066017,12.8033009 C1.97487373,12.2175144 1.97487373,11.267767 2.56066017,10.6819805 Z M14.5606602,10.6819805 L16.6819805,8.56066017 C17.267767,7.97487373 18.2175144,7.97487373 18.8033009,8.56066017 L20.9246212,10.6819805 C21.5104076,11.267767 21.5104076,12.2175144 20.9246212,12.8033009 L18.8033009,14.9246212 C18.2175144,15.5104076 17.267767,15.5104076 16.6819805,14.9246212 L14.5606602,12.8033009 C13.9748737,12.2175144 13.9748737,11.267767 14.5606602,10.6819805 Z" fill="#000000" opacity="0.3" />
+																	<path d="M8.56066017,16.6819805 L10.6819805,14.5606602 C11.267767,13.9748737 12.2175144,13.9748737 12.8033009,14.5606602 L14.9246212,16.6819805 C15.5104076,17.267767 15.5104076,18.2175144 14.9246212,18.8033009 L12.8033009,20.9246212 C12.2175144,21.5104076 11.267767,21.5104076 10.6819805,20.9246212 L8.56066017,18.8033009 C7.97487373,18.2175144 7.97487373,17.267767 8.56066017,16.6819805 Z M8.56066017,4.68198052 L10.6819805,2.56066017 C11.267767,1.97487373 12.2175144,1.97487373 12.8033009,2.56066017 L14.9246212,4.68198052 C15.5104076,5.26776695 15.5104076,6.21751442 14.9246212,6.80330086 L12.8033009,8.9246212 C12.2175144,9.51040764 11.267767,9.51040764 10.6819805,8.9246212 L8.56066017,6.80330086 C7.97487373,6.21751442 7.97487373,5.26776695 8.56066017,4.68198052 Z" fill="#000000" />
+																</g>
+															</svg> 
+														</div>
+														
+													<div class="kt-iconbox__desc text-primary">
+														<h3 class="kt-iconbox__title">
+															<h4>Mega Sorteio</h4>
+														</h3>
+														<div class="kt-iconbox__content text-primary">
+															Compre seu bilhete para participar.
+														</div>
+													</div>
+														</div><br>
+														<center><div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+														  <ol class="carousel-indicators">
+															<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+															<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+															<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+															<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+														  </ol>
+														  <div class="carousel-inner">
+															<div class="carousel-item active">
+															 <img alt="Pic" src="assets/media/products/slide2.jpg" width="360" height="180" />															  
+															</div>
+															<div class="carousel-item">
+															 <img alt="Pic" src="assets/media/products/slide3.jpg" width="360" height="180" />															  
+															</div>
+															<div class="carousel-item">
+															  <img alt="Pic" src="assets/media/products/slide4.jpg" width="360" height="180" />															  
+															</div>
+															<div class="carousel-item">
+															  <img alt="Pic" src="assets/media/products/slide5.jpg" width="360" height="180" />															  
+															</div>
+														  </div>														  														  
+														</div></center>
+																								
+												<div class="kt-section_content kt-section__content--solid text-center"><br>															
+													<a href="" class="btn btn-label-success btn-pill" data-toggle="modal" data-target="#kt_modal_111" >Consulte o regulamento!</a>&nbsp;															
+												</div>
+											</div>
+											</div>											
+										</div><!-- fim mega sorteio-->
+										
+										<!--bilhete-->
+										<div class="col-xl-6 col-lg-6">										
+											<div class="kt-portlet kt-portlet--height-fluid">
+												<div class=" kt-iconbox kt-iconbox--success kt-iconbox ">
+													<div class="kt-iconbox__body">
+														<div class="kt-iconbox__icon">
+															<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
+																<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																	<rect x="0" y="0" width="24" height="24" />
+																	<path d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z" fill="#000000" opacity="0.3" />
+																	<path d="M10.875,15.75 C10.6354167,15.75 10.3958333,15.6541667 10.2041667,15.4625 L8.2875,13.5458333 C7.90416667,13.1625 7.90416667,12.5875 8.2875,12.2041667 C8.67083333,11.8208333 9.29375,11.8208333 9.62916667,12.2041667 L10.875,13.45 L14.0375,10.2875 C14.4208333,9.90416667 14.9958333,9.90416667 15.3791667,10.2875 C15.7625,10.6708333 15.7625,11.2458333 15.3791667,11.6291667 L11.5458333,15.4625 C11.3541667,15.6541667 11.1145833,15.75 10.875,15.75 Z" fill="#000000" />
+																	<path d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z" fill="#000000" />
+																</g>
+															</svg> 
+														</div>
+														<div class="kt-iconbox__desc text-primary">
+															<h3 class="kt-iconbox__title">
+																<h4>Bilhete Único </h4>
+															</h3>
+															<div class="kt-iconbox__content text-primary">
+																Digite seu token para gerar seu bilhete único.
+															</div>	<br><br>																																																															
+																	<!--bilhete único-->
+																	
+																		<div class="form-group">
+																		<label for="exampleInputPassword2">Tokên</label>
+																			<div class="input-group col-10">
+																				<div class="input-group-prepend"><span class="input-group-text"><i class="la la-key"></i></span></div>
+																				   <input type="text" class="form-control" value="4567896" placeholder="Tokên" aria-describedby="basic-addon1">&nbsp;&nbsp;
+																				   <button type="button" class="btn btn-label-primary btn-pill" id="kt_sweetalert_4">Enviar token</button>
+																				</div>	
+																				<span class="form-text text-muted">&nbsp;&nbsp; Digite seu token</span>	
+																							
+																		</div>
+																		<div class="kt-portlet_foot">
+																			<div><br><br><br>
+																											  
+																				<button type="button" class="btn btn-label-success btn-pill" data-toggle="modal" data-target="#kt_modal_1">Bilhete com foto</button>								
+																				<button type="button" class="btn btn-label-danger btn-pill" data-toggle="modal" data-target="#kt_modal_2">Bilhete sem foto</button>
+																			</div>
+																		</div>
+																	
+																	<!--end::Form-->																																														
+																</div>
+															</div>
+														</div>
+													</div>														
+												</div><!--fim bilhete-->
+
+										<div class="col-xl-12 col-lg-12">										
+											<div class="kt-portlet kt-portlet--height-fluid">
+												<div class=" kt-iconbox kt-iconbox--success kt-iconbox ">
+													<div class="kt-iconbox__body">
+														<div class="kt-iconbox__icon">
+															<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
+																<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																	<polygon points="0 0 24 0 24 24 0 24"/>
+																	<path d="M12,11 C9.790861,11 8,9.209139 8,7 C8,4.790861 9.790861,3 12,3 C14.209139,3 16,4.790861 16,7 C16,9.209139 14.209139,11 12,11 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
+																	<path d="M3.00065168,20.1992055 C3.38825852,15.4265159 7.26191235,13 11.9833413,13 C16.7712164,13 20.7048837,15.2931929 20.9979143,20.2 C21.0095879,20.3954741 20.9979143,21 20.2466999,21 C16.541124,21 11.0347247,21 3.72750223,21 C3.47671215,21 2.97953825,20.45918 3.00065168,20.1992055 Z" fill="#000000" fill-rule="nonzero"/>
+																</g>
+															</svg>
+														</div>
+														<div class="kt-iconbox__desc text-primary">
+															<h3 class="kt-iconbox__title">
+																<h4>Ganhadores do Mês de Dezembro 2019</h4>Próximo Sorteio dia 15/01/2020 
+															</h3>
+															<div class="kt-iconbox__content text-primary">
+																Sorteios realizados todo segundo domingo de cada mês, compre seu bilhete o próximo ganhador pode ser você.
+															</div>	<br>																																																																																																																		
+															</div>																	
+																</div>
+																<div class="row">	
+																<!-- GANHADOR 1-->
+																<div class="col-xl-3 col-lg-3 ">
+																	<div class="kt-portlet kt-iconbox kt-iconbox--danger kt-iconbox--animate-faster">
+																		<div class="kt-portlet-body ">
+																		<div class="kt-media kt-media--lg kt-media--circle kt-margin-r-5 kt-margin-t-5">																																					 
+																         <img src="assets/media/users/300_19.jpg"width="360" height="180"  alt="image">															          																																					
+																			</div>
+																			<div class="text-align ">
+																			<h5>Graze Mendoça</h5>
+																			<i class="fa fa-key fa-1x"></i>
+													                        <label>&nbsp; Tokên: 00000</label>
+																			<center><button type="button" class="btn btn-label-danger btn-pill" data-toggle="modal" data-target="#kt_modal_pre1"><h6>Ganhadora do<br> 1º Prêmio</h6></button>
+																			</div>	
+																		</div>	
+																	</div>
+																</div>	
+																<!-- GANHADOR 2-->
+												                <div class="col-xl-3 col-lg-3">
+																	<div class="kt-portlet kt-iconbox kt-iconbox--success kt-iconbox--animate-faster">
+																		<div class="kt-portlet-body ">
+																		<div class="kt-media kt-media--lg kt-media--circle kt-margin-r-5 kt-margin-t-5">																																					 
+																         <img src="assets/media/users/300_19.jpg"width="360" height="180"  alt="image">															          																																					
+																			</div>
+																			<div class="text-align ">
+																			<h5>Graze Mendoça</h5>
+																			<i class="fa fa-key fa-1x"></i>
+													                        <label>&nbsp; Tokên: 00000</label>
+																			<center><button type="button" class="btn btn-label-success btn-pill" data-toggle="modal" data-target="#kt_modal_pre2"><h6>Ganhadora do<br> 2º Prêmio</h6></button>
+																			</div>	
+																		</div>	
+																	</div>
+																</div>	
+																   <!-- GANHADOR 3-->
+																	<div class="col-xl-3 col-lg-3 ">
+																	<div class="kt-portlet kt-iconbox kt-iconbox--primary kt-iconbox--animate-faster">
+																		<div class="kt-portlet-body ">
+																		<div class="kt-media kt-media--lg kt-media--circle kt-margin-r-5 kt-margin-t-5">																																					 
+																         <img src="assets/media/users/300_19.jpg"width="360" height="180"  alt="image">															          																																					
+																			</div>
+																			<div class="text-align ">
+																			<h5>Graze Mendoça</h5>
+																			<i class="fa fa-key fa-1x"></i>
+													                        <label>&nbsp; Tokên: 00000</label>
+																			<center><button type="button" class="btn btn-label-primary btn-pill" data-toggle="modal" data-target="#kt_modal_pre3"><h6>Ganhadora do<br> 3º Prêmio</h6></button>
+																			</div>	
+																		</div>	
+																	</div>
+																</div>	
+																<!-- GANHADOR 4-->
+												                <div class="col-xl-3 col-lg-3">
+																	<div class="kt-portlet kt-iconbox kt-iconbox--warning kt-iconbox--animate-faster">
+																		<div class="kt-portlet-body ">
+																		<div class="kt-media kt-media--lg kt-media--circle kt-margin-r-5 kt-margin-t-5">																																					 
+																         <img src="assets/media/users/300_19.jpg"width="360" height="180"  alt="image">															          																																					
+																			</div>
+																			<div class="text-align ">
+																			<h5>Graze Mendoça</h5>
+																			<i class="fa fa-key fa-1x"></i>
+													                        <label>&nbsp; Tokên: 00000</label>																		
+																			<center><button type="button" class="btn btn-label-warning btn-pill" data-toggle="modal" data-target="#kt_modal_pre4"><h6>Ganhadora do<br> 4º Prêmio</h6></button>
+																			</div>	
+																		</div>	
+																	</div>
+																</div>
+														</div>
+													</div>														
+												</div>																								
+											</div>																								               
+										</div>																							
+								     </div>
+								<!-- end:: Content -->
+							</div>
+						</div>																									
+					</div>
+				   </div>
+				</div>
+
+					<!-- begin:: Footer -->
+					<div class="kt-footer text-center kt-grid__item" id="kt_footer">
+						<div class="kt-container ">
+							<div class="kt-footer__wrapper">
+								<div class="kt-footer__copyright ">
+									2019&nbsp;&copy;&nbsp;<a href="#" target="_blank" class="kt-link">Sistema de incentivo a ajuda mútua</a>
+								</div>								
+							</div>
+						</div>
+					</div>
+					<!-- end:: Footer -->
+				</div>
+			</div>
+		</div>
+		<!-- end:: Page -->						
+		<!-- begin::Global Config(global config for global JS sciprts) -->
+		<script>
+			var KTAppOptions = {
+				"colors": {
+					"state": {
+						"brand": "#5d78ff",
+						"light": "#ffffff",
+						"dark": "#282a3c",
+						"primary": "#5867dd",
+						"success": "#34bfa3",
+						"info": "#36a3f7",
+						"warning": "#ffb822",
+						"danger": "#fd3995"
+					},
+					"base": {
+						"label": ["#c5cbe3", "#a1a8c3", "#3d4465", "#3e4466"],
+						"shape": ["#f0f3ff", "#d9dffa", "#afb4d4", "#646c9a"]
+					}
+				}
+			};
+		</script>
+								<!--modal bilhete-->
+			                     <div class="modal fade" id="kt_modal_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog " role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLabel">Bilhete Único</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													</button>
+												</div>												
+														<div class="row">										
+															<div class="col-lg-12">
+																<div class="kt-portlet kt-iconbox kt-iconbox--success kt-iconbox--animate-slow">																	
+																		<div class="kt-iconbox__body">																			
+																		<div class="kt-container text-center">																																											
+																					<a href="#" class="kt-media kt-media--xl kt-media--circle">
+																					<img src="assets/media/users/300_21.jpg" alt="image"></a>															
+																					<span class="kt-invoice_desc">
+																						<h4><span>Sergio Moraes </span></h4>
+																						<span>Tokên:</span><span> 96522</span><br>
+																						<h4 class="kt-invoice_title">Bilhete Único</h4>
+																					</span>																													
+																			<div class=" kt-container text-center">
+																				<div class="kt-invoice__text">
+																					<span class="kt-invoice__text">DATA:</span> &nbsp;<span class="kt-badge kt-badge--success  kt-badge--inline kt-badge--pill">22/03/2020</span>&nbsp;
+																					<span class="kt-invoice__text">SITUAÇÃO:</span>&nbsp;<span class="kt-badge kt-badge--success  kt-badge--inline kt-badge--pill">PAGO</span>&nbsp;
+																					
+																				</div>
+																																										
+																	</div>																									
+																		<div class="kt-container text-center"><br>																															
+																			<h5><label>Concurso</label>
+																			<label>Nº 00012</label></h5>																																																																
+																		</div><hr>																									
+																	<div class="kt-container text-center">													
+																			<div class="kt-section_content kt-section_content--solid">													
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">01</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">02</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">03</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">04</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">05</button>
+																			</div>
+																			<div class="kt-section_content kt-section_content--solid">													
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">06</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">07</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">08</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">09</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">10</button>
+																			</div>
+																			<div class="kt-section_content kt-section_content--solid">													
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">11</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">12</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">13</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">14</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">15</button>
+																			</div>
+																			<div class="kt-section_content kt-section_content--solid">													
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">16</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">17</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">18</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">19</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">20</button>
+																			</div>
+																			<div class="kt-section_content kt-section_content--solid">													
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">21</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">22</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">23</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">24</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">25</button>
+																			</div><hr><i class="flaticon2-up"></i>
+																			<div class="kt-section__info">
+																			Escolha 5 números da sorte.</div><i class="flaticon2-down"></i>
+																			  <hr>
+																			<div class="kt-section_content kt-section_content--solid">													
+																				<button type="button" class="btn btn-brand btn-elevate btn-circle btn-icon">01</button>
+																				<button type="button" class="btn btn-brand btn-elevate btn-circle btn-icon">12</button>
+																				<button type="button" class="btn btn-brand btn-elevate btn-circle btn-icon">22</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">24</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">25</button>
+																			</div>
+																		</div>																	
+																</div>														
+															</div>
+														</div>
+													</div>
+												</div>																				
+																					
+												<div class="modal-footer">																									
+													<button type="button" class="btn btn-label-brand btn-bold" onclick="window.print();">Gerar Fatura </button>&nbsp;
+													<button type="button" class="btn btn-brand btn-bold" onclick="window.print();">Imprimir bilhete</button>																												
+												</div>
+											</div>
+										</div>
+									</div><!--fim modal bilhete-->
+									
+									<!--modal bilhete sem foto-->
+			                     <div class="modal fade" id="kt_modal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog " role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLabel">Bilhete Único</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													</button>
+												</div>												
+														<div class="row">										
+															<div class="col-lg-12">
+																<div class="kt-portlet kt-iconbox kt-iconbox--success kt-iconbox--animate-slow">																	
+																		<div class="kt-iconbox__body">																			
+																		<div class="kt-container text-center">																																											
+																																				
+																					<span class="kt-invoice_desc">
+																						<h4><span>Sergio Moraes </span></h4>
+																						<span>Tokên:</span><span> 96522</span><br>
+																						<h4 class="kt-invoice_title">Bilhete Único</h4>
+																					</span>																													
+																			<div class=" kt-container text-center">
+																				<div class="kt-invoice__text">
+																					<span class="kt-invoice__text">DATA:</span> &nbsp;<span class="kt-badge kt-badge--success  kt-badge--inline kt-badge--pill">22/03/2020</span>&nbsp;
+																					<span class="kt-invoice__text">SITUAÇÃO:</span>&nbsp;<span class="kt-badge kt-badge--success  kt-badge--inline kt-badge--pill">PAGO</span>&nbsp;
+																					
+																				</div>
+																																										
+																	</div>																									
+																		<div class="kt-container text-center"><br>																															
+																			<h5><label>Concurso</label>
+																			<label>Nº 00012</label></h5>																																																																
+																		</div><hr>																									
+																	<div class="kt-container text-center">													
+																			<div class="kt-section_content kt-section_content--solid">													
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">01</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">02</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">03</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">04</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">05</button>
+																			</div>
+																			<div class="kt-section_content kt-section_content--solid">													
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">06</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">07</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">08</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">09</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">10</button>
+																			</div>
+																			<div class="kt-section_content kt-section_content--solid">													
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">11</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">12</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">13</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">14</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">15</button>
+																			</div>
+																			<div class="kt-section_content kt-section_content--solid">													
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">16</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">17</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">18</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">19</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">20</button>
+																			</div>
+																			<div class="kt-section_content kt-section_content--solid">													
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">21</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">22</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">23</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">24</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">25</button>
+																			</div><hr><i class="flaticon2-up"></i>
+																			<div class="kt-section__info">
+																			Escolha 5 números da sorte.</div><i class="flaticon2-down"></i>
+																			  <hr>
+																			<div class="kt-section_content kt-section_content--solid">													
+																				<button type="button" class="btn btn-brand btn-elevate btn-circle btn-icon">01</button>
+																				<button type="button" class="btn btn-brand btn-elevate btn-circle btn-icon">12</button>
+																				<button type="button" class="btn btn-brand btn-elevate btn-circle btn-icon">22</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">24</button>
+																				<button type="button" class="btn btn-outline-brand btn-elevate btn-circle btn-icon">25</button>
+																			</div>
+																		</div>																	
+																</div>														
+															</div>
+														</div>
+													</div>
+												</div>																				
+																					
+												<div class="modal-footer">																									
+													<button type="button" class="btn btn-label-brand btn-bold" onclick="window.print();">Gerar Fatura </button>&nbsp;
+													<button type="button" class="btn btn-brand btn-bold" onclick="window.print();">Imprimir bilhete</button>																												
+												</div>
+											</div>
+										</div>
+									</div><!--fim modal bilhete sem foto-->
+									<!--modal regulamento-->
+									<div class="modal fade" id="kt_modal_111" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLabel">Regulamento</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													</button>
+												</div>
+												<div class="modal-body">
+													<p>dard dummy text ever since the 150 survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-primary">Save changes</button>
+												</div>
+											</div>
+										</div>
+									</div> <!-- fim modal regulamento-->
+									
+									<!--modal prêmio 1-->
+									<div class="modal fade" id="kt_modal_pre1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLabel"> 1º Prêmio</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													</button>
+												</div>
+												<div class="modal-body">
+													 <img alt="Pic" src="assets/media/products/slide2.jpg" width="460" height="280" />	
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-primary">Save changes</button>
+												</div>
+											</div>
+										</div>
+									</div> <!--fim modal prêmio 1-->
+									
+									<!--modal prêmio 2-->
+									<div class="modal fade" id="kt_modal_pre2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLabel">2º Prêmio</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													</button>
+												</div>
+												<div class="modal-body">
+													<img alt="Pic" src="assets/media/products/slide3.jpg" width="460" height="280" />	
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-primary">Save changes</button>
+												</div>
+											</div>
+										</div>
+									</div> <!--fim modal prêmio 2-->
+									
+									<!--modal prêmio 3-->
+									<div class="modal fade" id="kt_modal_pre3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLabel">3º Prêmio</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													</button>
+												</div>
+												<div class="modal-body">
+											     <img alt="Pic" src="assets/media/products/slide4.jpg" width="460" height="280" />	
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-primary">Save changes</button>
+												</div>
+											</div>
+										</div>
+									</div> <!--fim modal prêmio 3-->
+									
+									<!--modal prêmio 4-->
+									<div class="modal fade" id="kt_modal_pre4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLabel">4º Prêmio</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													</button>
+												</div>
+												<div class="modal-body">
+												<img alt="Pic" src="assets/media/products/slide5.jpg" width="460" height="280" />	
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-primary">Save changes</button>
+												</div>
+											</div>
+										</div>
+									</div>	<!--fim modal prêmio 4-->
+									
+									
+			
+		<!-- end::Global Config -->
+
+		
+
+		<!--begin:: Vendor Plugins -->
+		<script src="assets/plugins/general/jquery/dist/jquery.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/popper.js/dist/umd/popper.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js-cookie/src/js.cookie.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/moment/min/moment.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/tooltip.js/dist/umd/tooltip.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/perfect-scrollbar/dist/perfect-scrollbar.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/sticky-js/dist/sticky.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/wnumb/wNumb.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/jquery-form/dist/jquery.form.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/block-ui/jquery.blockUI.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/bootstrap-datepicker.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-datetime-picker/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-timepicker/js/bootstrap-timepicker.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/bootstrap-timepicker.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-daterangepicker/daterangepicker.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-maxlength/src/bootstrap-maxlength.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/plugins/bootstrap-multiselectsplitter/bootstrap-multiselectsplitter.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-select/dist/js/bootstrap-select.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-switch/dist/js/bootstrap-switch.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/bootstrap-switch.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/select2/dist/js/select2.full.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/ion-rangeslider/js/ion.rangeSlider.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/typeahead.js/dist/typeahead.bundle.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/handlebars/dist/handlebars.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/inputmask/dist/jquery.inputmask.bundle.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/inputmask/dist/inputmask/inputmask.date.extensions.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/inputmask/dist/inputmask/inputmask.numeric.extensions.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/nouislider/distribute/nouislider.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/owl.carousel/dist/owl.carousel.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/autosize/dist/autosize.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/clipboard/dist/clipboard.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/dropzone/dist/dropzone.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/dropzone.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/quill/dist/quill.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/@yaireo/tagify/dist/tagify.polyfills.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/@yaireo/tagify/dist/tagify.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/summernote/dist/summernote.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/markdown/lib/markdown.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-markdown/js/bootstrap-markdown.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/bootstrap-markdown.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/bootstrap-notify/bootstrap-notify.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/bootstrap-notify.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/jquery-validation/dist/jquery.validate.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/jquery-validation/dist/additional-methods.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/jquery-validation.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/toastr/build/toastr.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/dual-listbox/dist/dual-listbox.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/raphael/raphael.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/morris.js/morris.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/chart.js/dist/Chart.bundle.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/plugins/bootstrap-session-timeout/dist/bootstrap-session-timeout.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/plugins/jquery-idletimer/idle-timer.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/waypoints/lib/jquery.waypoints.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/counterup/jquery.counterup.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/es6-promise-polyfill/promise.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/sweetalert2/dist/sweetalert2.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/js/global/integration/plugins/sweetalert2.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/jquery.repeater/src/lib.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/jquery.repeater/src/jquery.input.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/jquery.repeater/src/repeater.js" type="text/javascript"></script>
+		<script src="assets/plugins/general/dompurify/dist/purify.js" type="text/javascript"></script>
+
+		<!--end:: Vendor Plugins -->
+		<script src="assets/js/scripts.bundle.js" type="text/javascript"></script>
+
+		<!--begin:: Vendor Plugins for custom pages -->
+		<script src="assets/plugins/custom/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/@fullcalendar/core/main.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/@fullcalendar/daygrid/main.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/@fullcalendar/google-calendar/main.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/@fullcalendar/interaction/main.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/@fullcalendar/list/main.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/@fullcalendar/timegrid/main.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/gmaps/gmaps.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/flot/dist/es5/jquery.flot.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/flot/source/jquery.flot.resize.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/flot/source/jquery.flot.categories.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/flot/source/jquery.flot.pie.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/flot/source/jquery.flot.stack.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/flot/source/jquery.flot.crosshair.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/flot/source/jquery.flot.axislabels.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net/js/jquery.dataTables.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-bs4/js/dataTables.bootstrap4.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/js/global/integration/plugins/datatables.init.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-autofill/js/dataTables.autoFill.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-autofill-bs4/js/autoFill.bootstrap4.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jszip/dist/jszip.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/pdfmake/build/pdfmake.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/pdfmake/build/vfs_fonts.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-buttons/js/dataTables.buttons.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-buttons/js/buttons.colVis.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-buttons/js/buttons.flash.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-buttons/js/buttons.html5.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-buttons/js/buttons.print.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-colreorder/js/dataTables.colReorder.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-fixedcolumns/js/dataTables.fixedColumns.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-keytable/js/dataTables.keyTable.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-responsive/js/dataTables.responsive.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-rowgroup/js/dataTables.rowGroup.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-rowreorder/js/dataTables.rowReorder.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-scroller/js/dataTables.scroller.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/datatables.net-select/js/dataTables.select.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jstree/dist/jstree.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jqvmap/dist/jquery.vmap.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jqvmap/dist/maps/jquery.vmap.world.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jqvmap/dist/maps/jquery.vmap.russia.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jqvmap/dist/maps/jquery.vmap.usa.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jqvmap/dist/maps/jquery.vmap.germany.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/jqvmap/dist/maps/jquery.vmap.europe.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/uppy/dist/uppy.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/tinymce/tinymce.min.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/tinymce/themes/silver/theme.js" type="text/javascript"></script>
+		<script src="assets/plugins/custom/tinymce/themes/mobile/theme.js" type="text/javascript"></script>
+		
+		<script src="assets/js/pages/components/extended/sweetalert2.js" type="text/javascript"></script>
+		<!--end:: Vendor Plugins for custom pages -->
+
+		<!--end::Global Theme Bundle -->
+	</body>
+
+	<!-- end::Body -->
+</html>>
